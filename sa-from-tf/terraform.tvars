@@ -1,0 +1,7 @@
+project_id = "terraform-461115"
+
+account_id = "gcp-terraform"
+
+roles = [
+  "roles/storage.admin",
+]
