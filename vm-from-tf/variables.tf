@@ -19,7 +19,7 @@ variable "account_id" {
 variable "sa_account_name" {
   type        = string
   description = "The unique short name for the service account to be created (e.g., 'my-service-account')."
-  default     = "terraform-sa"
+  default     = "jf-webapp-dev"
 }
 
 variable "roles" {
