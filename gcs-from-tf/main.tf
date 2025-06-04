@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "GCS1" {
-    name = "my-terraform-state-bucket-461115"
+    name = "jf-app-gcp-infra"
     location = "us-central1"
     storage_class = "STANDARD"
     uniform_bucket_level_access = true

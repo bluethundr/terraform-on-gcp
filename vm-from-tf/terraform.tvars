@@ -1,3 +1,11 @@
 roles = [
   "roles/storage.admin",
 ]
+
+project  = "terraform-461115"
+zone = "us-central1-a"
+image = "debian-cloud/debian-11"
+allow_stopping_for_update = true
+machine_type = "e2-medium"
+network = "default"
+name = "vm-from-terraform"

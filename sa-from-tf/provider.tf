@@ -8,7 +8,7 @@ terraform {
   }
   required_version = ">= 0.13"
   backend "gcs" { # This is correct: where sa-from-tf stores its state
-    bucket = "my-terraform-state-bucket-461115" # Replace with your unique bucket name
+    bucket = "my-terraform-state-bucket-2555555" # Replace with your unique bucket name
     prefix = "terraform/sa-from-tf"
   }
 }

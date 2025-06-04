@@ -11,5 +11,4 @@ variable "location" {
 
 variable "name" {
   type    = string
-  default = "my-terraform-state-bucket-461115"
 }

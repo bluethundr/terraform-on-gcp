@@ -8,7 +8,7 @@ output "name" {
   value       = google_service_account.sa.name  # <-- Direct reference
   description = "The fully-qualified name of the service account."
 }
-# output "account_id" { # This line was commented out in your original, keep it that way.
+# output "account_id"  # This line was commented out in your original, keep it that way.
 output "unique_id" {
   value       = google_service_account.sa.unique_id # <-- Direct reference
   description = "The unique id of the service account."
