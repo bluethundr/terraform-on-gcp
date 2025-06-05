@@ -15,6 +15,7 @@ resource "google_project_iam_member" "sa_iam" {
 
 resource "google_service_account_key" "gcp_tests" {
   service_account_id = google_service_account.sa.name
+  depends_on         = [google_service_account.sa] # <--- Add this line
 }
 
 resource "local_file" "gcp_tests_store" {

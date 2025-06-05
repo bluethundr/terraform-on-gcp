@@ -10,5 +10,5 @@ variable "location" {
 }
 
 variable "name" {
-  type    = string
+  type = string
 }

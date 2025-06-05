@@ -2,7 +2,7 @@
 variable "account_id" {
   type        = string
   description = "The unique short name (ID) for the service account to be created in sa.tf (e.g., 'terraform-sa')."
-  default     = "jf-webapp-dev" // << This is the short name
+  #default     = "jf-webapp-dev" // << This is the short name
 }
 
 
@@ -15,11 +15,11 @@ variable "roles" {
 variable "project_id" {
   type        = string
   description = "The GCP project ID."
-  default     = "terraform-461115"
+  #default = "terraform-461115"
 }
 
 variable "description" {
   description = "A display name/description for the service account."
   type        = string
-  default     = "Service account managed by Terraform." # Default for display_name
+  #default = "Service account managed by Terraform."
 }
