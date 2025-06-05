@@ -5,7 +5,7 @@ output "email" {
   description = "The e-mail address of the service account."
 }
 output "name" {
-  value       = google_service_account.sa.name  # <-- Direct reference
+  value       = google_service_account.sa.name # <-- Direct reference
   description = "The fully-qualified name of the service account."
 }
 # output "account_id"  # This line was commented out in your original, keep it that way.
